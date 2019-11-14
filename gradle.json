@@ -1,0 +1,8 @@
+{
+    "homepage": "https://gradle.org",
+    "description": "An open-source build automation tool focused on flexibility and performance. (Source code and documentation boundled)",
+    "version": "5.4",
+    "url": "https://services.gradle.org/distributions/gradle-5.4-all.zip",
+    "extract_dir": "gradle-5.4",
+    "bin": "bin\\gradle.bat"
+}
