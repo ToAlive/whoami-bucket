@@ -1,0 +1,8 @@
+'{
+    "bin": "gradle-5.4.zip",
+    "url": "https://gradle.org/next-steps/?version=5.4&format=all",
+    "version": "5.4",
+    "##":"自定义的gradle 5.4包",
+    "extract_dir":"gralde"
+
+}' > gradle.json
