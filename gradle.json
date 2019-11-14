@@ -1,4 +1,4 @@
-'{
+{
     "homepage": "https://gradle.org",
     "description": "An open-source build automation tool focused on flexibility and performance. (Source code and documentation boundled)",
     "version": "5.4",
@@ -24,4 +24,4 @@
             "url": "$url.sha256"
         }
     }
-}' > gradle.json
+}
