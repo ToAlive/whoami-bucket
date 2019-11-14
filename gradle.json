@@ -1,8 +1,27 @@
 '{
-    "bin": "gradle-5.4.zip",
-    "url": "https://gradle.org/next-steps/?version=5.4&format=all",
+    "homepage": "https://gradle.org",
+    "description": "An open-source build automation tool focused on flexibility and performance. (Source code and documentation boundled)",
     "version": "5.4",
-    "##":"自定义的gradle 5.4包",
-    "extract_dir":"gralde"
-
+    "license": "Apache-2.0",
+    "hash": "a1eb4439c0a85bc7e64a22658d862e43b7d0ddfbf69a7abf6256e0b7514295df",
+    "url": "https://services.gradle.org/distributions/gradle-5.4-all.zip",
+    "extract_dir": "gradle-5.4",
+    "bin": "bin\\gradle.bat",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "checkver": {
+        "url": "https://gradle.org/install/",
+        "re": "The current Gradle release is version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://services.gradle.org/distributions/gradle-$version-all.zip",
+        "extract_dir": "gradle-$version",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
 }' > gradle.json
